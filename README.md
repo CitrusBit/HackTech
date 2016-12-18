@@ -1,5 +1,4 @@
-# HackTech
-Make yourself look like a hacker
+# **HackTech**
+Make yourself look like a hacker from the movies
 
-V 0.1
-Wip
+#**CURENT STATUS:** beta
