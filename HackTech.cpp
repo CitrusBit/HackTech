@@ -20,7 +20,7 @@ int kill ()
 }
 int ipget()
 {
-	
+	cout << "IPID == 42.0.0.198\n";
 }
 
 int gainadmin()
@@ -81,6 +81,14 @@ int main()
 		else if (COMTYPE == "kill")
 		{
 			kill();
+		}
+		else if (COMTYPE == "ip.get")
+		{
+			ipget();
+		}
+		else
+		{
+			cout << "Bad command or file.";
 		}
 		
 	}
