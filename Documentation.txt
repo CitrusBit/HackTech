@@ -1,0 +1,12 @@
+===HACKTECH DOCUMENTATION===
+
++++++++++++++++++++++++++++++++
+COMMANDS:
+
+kill: Turns prompt red w/ haxor sounding messages
+
+ip.get: "Gets" The target IP
+
+gain.admin.root: Gains admin
+
+nethack: uploads "virus"
