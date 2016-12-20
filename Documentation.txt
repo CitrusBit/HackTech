@@ -10,3 +10,5 @@ ip.get: "Gets" The target IP
 gain.admin.root: Gains admin
 
 nethack: uploads "virus"
+
+breach: "breaches" the "network"
