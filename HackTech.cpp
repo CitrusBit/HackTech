@@ -6,6 +6,11 @@
 #include <cstdio>
 
 using namespace std; //Much more efficient than puting it in every. single. method.
+int help ()
+{
+    cout << "Commands: kill, ip.get, gainadmin,\n";
+    cout << "Nethack, breach, info, help, exit\n";
+}
 int kill ()
 {
 	system("color C");
@@ -46,7 +51,7 @@ int main()
 	//Written by Hardy Coble Gardner
 	system("color A");
 	std::string COMTYPE; //Magikz. Plz no Mess wit
-	cout << "Welcome to Hack.TECH() Va4011b2\n";
+	cout << "Welcome to Hack.TECH() Va4011b2 Type 'help' for a list of commands\n";
 	int trigger{1};
 	while(trigger == 1) //Used to start loops and what not. not to be confused with TRIGGERED!!!!111!!1
 	{
@@ -70,7 +75,7 @@ int main()
 		{
 			break;
 		}
-		else if (COMTYPE == "gain.admin.root")
+		else if (COMTYPE == "gain.admin")
 		{
 			gainadmin();
 		}
@@ -86,11 +91,15 @@ int main()
 		{
 			ipget();
 		}
+		else if (COMTYPE == "help")
+        {
+            help();
+        }
 		else
 		{
-			cout << "Bad command or file.";
+			cout << "Bad command or file.\n";
 		}
-		
+
 	}
 	return 0;
 }
