@@ -70,7 +70,7 @@ int main()
 		{
 			break;
 		}
-		else if (COMTYPE == "gain.admin")
+		else if (COMTYPE == "gain.admin.root")
 		{
 			gainadmin();
 		}
