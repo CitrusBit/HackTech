@@ -8,8 +8,8 @@
 using namespace std; //Much more efficient than puting it in every. single. method.
 int help ()
 {
-    cout << "Commands: kill, ip.get, gainadmin,\n";
-    cout << "Nethack, breach, info, help, exit\n";
+    cout << "Commands: kill, ip.get, gain.admin,\n";
+    cout << "nethack, breach, info, help, exit\n";
 }
 int kill ()
 {
